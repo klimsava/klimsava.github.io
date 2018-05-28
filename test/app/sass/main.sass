@@ -96,6 +96,65 @@ body
 		font-weight: 400
 		text-transform: uppercase
 		color: rgba(255, 255, 255, 0.7)
+		&:hover
+			text-decoration: none
+			color: $green
+
+.menu
+	position: fixed
+	width: 78px
+	height: 100vh
+	background-color: $white
+	left: 0
+	top: 0
+	z-index: 999
+	&-iteam
+		display: block
+		text-align: center
+		cursor: pointer
+		margin-bottom: 420px
+		img
+			display: block
+			margin: 45px auto 12px
+			color: #000
+		&__link
+			display: block
+			font-family: "RalewayExtraBold", sans-serif
+			font-size: 11px
+			font-weight: bold
+			text-transform: uppercase
+			color: #000
+			opacity: 0.5
+			text-decoration: none
+			&:hover
+				text-decoration: none
+				color: $green
+	&-social
+		margin: 0
+		padding: 0
+		.social-iteam
+			transform: rotate(-90deg)
+			&__link
+				position: relative
+				display: inline-block
+				padding: 40px 0
+				font-family: "RalewayRegular", sans-serif
+				font-size: 12px
+				font-weight: 400
+				text-transform: uppercase
+				color: #000
+				opacity: 0.4
+				&:hover
+					text-decoration: none
+					color: $green
+				i
+					position: absolute
+					top: 41%
+					left: -20px
+
+
+
+
 
 .box-desc
 	&__des
@@ -219,12 +278,15 @@ body
 
 .company-video
 	position: relative
-	width: 680px
+	width: 630px
 	height: 786px
+	cursor: pointer
+	margin-left: 63px;
 	img
 		width: 100%
 		height: 100%
 		object-fit: cover
+
 	&__link
 		display: inline-block
 		position: absolute
@@ -286,7 +348,7 @@ body
 
 
 .owl-carousel .owl-stage-outer
-	width: 500px
+	width: 560px
 	height: 316px
 	margin: 0
 
@@ -301,17 +363,26 @@ body
 		position: absolute
 		left: 55px
 	.trevel-date
+		font-family: Raleway
+		font-size: 11px
+		font-weight: 400
+		line-height: 18px
 		display: inline-block
 		position: absolute
 		top: 30px
-		transform: rotate(272deg)
+		transform: rotate(-90deg)
+		color: #b3b3b3
 	.trevel-desc
 		display: inline-block
 		position: absolute
-		right: 0
-		bottom: 70px
-		transform: rotate(272deg)
-		z-index: 999
+		right: -120px
+		bottom: 27px
+		transform: rotate(-90deg)
+		font-family: "RalewayExtraBold", sans-serif
+		font-size: 11px
+		font-weight: 400
+		line-height: 18px
+		color: #b3b3b3
 
 
 

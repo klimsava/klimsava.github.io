@@ -30,8 +30,8 @@
 </head>
 
 <body>
-
-<header class="header">
+<div id="fsvs-body">
+<header class="header slide">
 	<div class="container">
 		<div class="row">
 			<div class="header-top">
@@ -45,7 +45,7 @@
 				<div class="col-md-6">
 					<div class="header-phone">
 						<a href="tel:+375 29 987 65 43" class="header-phone__number">+375 29 987 65 43</a>
-						<span class="header-phone__text">Обратный звонок</span>
+						<a href="#" class="header-phone__text">Обратный звонок</a>
 					</div>
 				</div>
 			</div>
@@ -97,15 +97,31 @@
 			</div>
 		</div>
 	</div>
+
+<div class="menu">
+	<div class="menu-iteam">
+		<a href="#1231" class="menu-iteam__link"><img src="img/menu1.png" alt="Меню">Меню</a>
+	</div>
+	<ul class="menu-social">
+		<li class="social-iteam">
+			<a href="https://vk.com" class="social-iteam__link"> <i class="fa fa-vk" aria-hidden="true"></i>
+ Vkontakte</a>
+		</li>
+		<li class="social-iteam">
+			<a href="https://www.instagram.com" class="social-iteam__link"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+		</li>
+	</ul>
+</div>
+
 </header>
 
-<section class="section-description">
+<section id="yak" class="section-description slide">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 bag">
 				<div class="company-video">
-					<img src="img/video1.png" alt="Video">
-					<a href="#" class="company-video__link"></a>
+					<img id="videoimg" src="img/video1.png" alt="Video">
+					<a class="company-video__link"></a>
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -155,14 +171,17 @@
 						<div class="carousel-trevel__item">
 							<span class="trevel-date">04  /  06</span>
 							<img src="img/slide2.png" alt="">
+							<span class="trevel-desc">восхождение</span>
 						</div>
 						<div class="carousel-trevel__item">
 							<span class="trevel-date">03  /  07</span>
 							<img src="img/slide1.png" alt="">
+							<span class="trevel-desc">восхождение</span>
 						</div>
 						<div class="carousel-trevel__item">
 							<span class="trevel-date">05  /  12</span>
 							<img src="img/slide2.png" alt="">
+							<span class="trevel-desc">восхождение</span>
 						</div>
 					</div>
 					<p class="gallery-text">Покорили ледяные вершины<br> с командой <span>HBO</span></p>
@@ -191,18 +210,22 @@
 						<div class="carousel-trevel__item">
 							<span class="trevel-date">01  /  04</span>
 							<img src="img/slide2.png" alt="">
+							<span class="trevel-desc">Погружение</span>
 						</div>
 						<div class="carousel-trevel__item">
 							<span class="trevel-date">04  /  06</span>
 							<img src="img/slide1.png" alt="">
+							<span class="trevel-desc">Погружение</span>
 						</div>
 						<div class="carousel-trevel__item">
 							<span class="trevel-date">03  /  07</span>
 							<img src="img/slide2.png" alt="">
+							<span class="trevel-desc">Погружение</span>
 						</div>
 						<div class="carousel-trevel__item">
 							<span class="trevel-date">05  /  12</span>
 							<img src="img/slide1.png" alt="">
+							<span class="trevel-desc">Погружение</span>
 						</div>
 					</div>
 					<p class="gallery-text">Поплавали за рыбками<br>
@@ -213,6 +236,7 @@
 
 	</div>
 </section>
+</div>
 
 <footer class="footer">
 	<div class="footer-box">
