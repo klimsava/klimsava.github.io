@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Каталог Ухтыбокс</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/fontawesome/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Здесь пишем код -->
+	<div class="bg">
+		<div class="wrap">
+			<h2 class="top-title">Каталог готовых наборов</h2>
+			<div class="flex-container">
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar1.html" class="link">
+							<img src="img/skils-box.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar2.html" class="link">
+							<img src="img/bad-box.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar3.html" class="link">
+							<img src="img/kap-box.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar4.html" class="link">
+							<img src="img/mama-box.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar5.html" class="link">
+							<img src="img/super-box.png" alt="">
+						</a>
+					</div>					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar6.html" class="link">
+							<img src="img/cook-box.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar7.html" class="link">
+							<img src="img/game-box.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+				<div class="flex-element">
+					<div class="flex-element__img">
+						<a href="tovar8.html" class="link">
+							<img src="img/japan-box.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-order js-button-campaign">Заказать</a>
+				</div>
+			</div>
+			<div class="btn-c">
+				<a href="https://uhtibox.ru/catalog" class="bnt-catalog">весь каталог</a>
+			</div>
+
+		</div>
+		<!-- Modal -->
+			<div class="overlay js-overlay-compaign">
+				<div class="popup js-popup-compaign">
+					<h4 class="popup-title">Оформление заказа</h4>	
+					<div class="popup-block">
+						<div class="popup-block__img">
+							<img src="img/lal.png" alt="">
+						</div>
+						<div class="popup-block__order">
+							<h5 class="block-order__title">Подарочный набор - 25</h5>
+							<span class="block-order__price">499 <i class="fa fa-rub" aria-hidden="true"></i>
+							</span>
+							<div class="block-number">
+								<button class="minus-btn" type="button" name="button">
+									<i class="fa fa-minus" aria-hidden="true"></i>
+								</button>
+								<input class="block-number__input" type="text" id="num_count" name="quantity" value="1" >
+								<button class="plus-btn" type="button" name="button">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
+					</div>	
+						<form id="form"  class="block-mail">
+							<div class="block-mail__left">
+								<h3 class="block-mail__title">Ваше имя</h3>
+								<input type="text" name="name" class="form-adres" placeholder="Введите Ваше имя">
+								<h3 class="block-mail__title">Ваш номер</h3>
+								<input type="tel" name="tel" class="form-adres" placeholder="Введите Ваш телефон">
+								<div class="block-btn__left">
+									<input class="radio" type="radio" name="policy" value="policy" required="required">
+									<p class="block-btn__desc">Я даю согласие на обработку своих персональных данных в соответствии 
+									<a href="https://uhtibox.ru/oferta.pdf">с Политикой конфиденциальности</a></p>
+								</div>
+							</div>
+							<div class="block-mail__right">
+								<h3 class="block-mail__title">Ваш E-mail</h3>
+								<input type="text" name="mail" class="form-adres" placeholder="Введите Ваше E-mail">
+								<h3 class="block-mail__title">Ваш адрес</h3>
+								<input type="text" name="addres" class="form-adres" placeholder="Введите Ваше адрес">
+								<div class="block-btn__right">
+									<input type="submit" class="block-btn__button" value="Заказать">
+								</div>
+							</div>
+						</form>	
+					<div class="close-popup js-close-campaign">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</div>				
+				</div>
+			</div>
+	</div>
+	
+	<div class="hidden"></div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="libs/slick/slick.js"></script>
+
+	<script src="js/common.js"></script>
+	
+</body>
+</html>
